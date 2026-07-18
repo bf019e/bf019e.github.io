@@ -1,5 +1,6 @@
 body{
       text-align: center;
-  background-image: url("https://raw.githubusercontent.com/bf019e/bf019e.github.io/refs/heads/www/the-corner/resources/background.jpg");
+  background-image: url("resources/background.jpg");
+  background-size: 50%;
       /* color: #E44C95; */
     }
