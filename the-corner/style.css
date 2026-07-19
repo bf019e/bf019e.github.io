@@ -29,6 +29,8 @@ body{
     height: auto;
     float: left;
     width: 920px;
-    margin-top: 10px;
+    #margin-top: 10px;
     background: lightblue;
 }
+
+
