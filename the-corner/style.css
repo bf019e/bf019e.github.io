@@ -16,7 +16,7 @@ body{
 }
 
 .main{
-     border: 4px double;
+     border: 4px double lightblue;
      width: 920px;
      height: 1080px;
      margin: auto;
@@ -24,7 +24,7 @@ body{
      background-color: white;
 }
 
-.welcome{
+.moving-bar{
     border: 1px solid lightblue;
     height: auto;
     float: left;
@@ -33,4 +33,54 @@ body{
     background: lightblue;
 }
 
+.side{
+      border: 1px solid blue;
+      height: 370px;
+      float: right;
+      width: 220px;
+      margin-top: 10px;
+        overflow-x: hidden;
+  overflow-y: scroll;
+      background-image: url("");
+    }
 
+.navigationbar{
+ color: white;
+  border: 1px solid lightblue;
+  padding: 1px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+
+   font-size: 30px;
+  font-family: 'Cheri', sans-serif;
+  margin: auto;
+
+  padding: 3px;
+  -webkit-text-stroke: 2px lightblue;
+    filter:   drop-shadow(0 0 1px white) drop-shadow(0 0 1px white) drop-shadow(0 0 1px white)drop-shadow(0 0 1px white) drop-shadow(1px 1px 0.1px blue);
+  background-image: url("");
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+border radius: 10px;
+  width: 200px;
+     background: ;
+}
+
+li a {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: block;
+  color: white;
+  background: lightblue;
+
+ li a:hover {
+ background: linear-gradient(#FFC3E3 , #FFCCE7 40%, FF8FCB);
+  color: white;
+}
+  text-decoration: none;
+  border: 1px solid ;
+}
