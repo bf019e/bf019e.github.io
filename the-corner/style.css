@@ -4,6 +4,52 @@ body{
   background-size: 300px;
     }
 
+.moving-bar{
+    border: 1px solid lightblue;
+    height: auto;
+    float: left;
+    width: 920px;
+    margin-top: 10px;
+    background: lightblue;
+}
+
+.center{
+        border: 1px solid blue;
+      height: 300px;
+      float: left;
+      width: 450px;
+      margin-top: 10px;
+      margin-left: 10px;
+      overflow: auto;
+            background-image: url("");
+  }
+
+.title{
+ color: white;
+  border: 1px solid lightblue;
+  padding: 1px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+
+   font-size: 30px;
+  font-family: 'Cheri', sans-serif;
+  margin: auto;
+
+  padding: 3px;
+  -webkit-text-stroke: 2px lightblue;
+    filter:   drop-shadow(0 0 1px white) drop-shadow(0 0 1px white) drop-shadow(0 0 1px white)drop-shadow(0 0 1px white) drop-shadow(1px 1px 0.1px blue);
+  background-image: url("");
+}
+
+.inner{
+  border: 1px dashed lightblue;
+  margin: auto;
+  margin-top: 10px;
+  width: 400px;
+ padding: 10px;
+ background-color: white;
+}
+
 .banner{
 
       border: 2px double;
@@ -22,15 +68,6 @@ body{
      margin: auto;
      padding: 10px;
      background-color: white;
-}
-
-.moving-bar{
-    border: 1px solid lightblue;
-    height: auto;
-    float: left;
-    width: 920px;
-    #margin-top: 10px;
-    background: lightblue;
 }
 
 .side{
