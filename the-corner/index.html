@@ -9,7 +9,7 @@
 
 <div class="moving-bar">
 	<marquee>
-	Bienvenido a 'The Otaku's Corner'
+	<span style="font-family:'PixelOperator';">Bienvenido a 'The Otaku's Corner'</span>
 	</marquee>
 </div>
 
@@ -44,7 +44,7 @@
 		
 		<!--
 
-		Clock digits inspired by Kusaka Kokage's
+		Clock digits by Kusaka Kokage's
 		Nekomimi Clock (2003).
 
 		Thank you for creating one of the cutest
@@ -52,14 +52,24 @@
 
 		-->
 
-<img src="resources/clock/0.gif" style="border: 0" alt="1">
-<img src="resources/clock/1.gif" style="border: 0" alt="1">
-<img src="resources/clock/2.gif" style="border: 0" alt="1">
-<img src="resources/clock/3.gif" style="border: 0" alt="1">
-<img src="resources/clock/4.gif" style="border: 0" alt="1">
-<img src="resources/clock/5.gif" style="border: 0" alt="1">
-<img src="resources/clock/6.gif" style="border: 0" alt="1">
-<img src="resources/clock/7.gif" style="border: 0" alt="1">
-<img src="resources/clock/8.gif" style="border: 0" alt="1">
-<img src="resources/clock/9.gif" style="border: 0" alt="1">
+<div class="clock">
+	
+	<img id="h1" class="digit">
+	<img id="h2" class="digit">
+	
+	<span class="clock-separator">:</span>
+
+	<img id="m1" class="digit">
+	<img id="m2" class="digit">
+	<!--
+	<span class="separator">:</span>
+	
+	<img id="s1" class="digit">
+	<img id="s2" class="digit">
+
+	<span id="ampm"></span>
+	-->
+</div>
+	<script src="clock.js"></script>
+
 </footer>

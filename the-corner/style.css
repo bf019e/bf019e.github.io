@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "PixelOperator";
+    src: url("resources/PixelOperator.ttf") format("truetype");
+}
+
 body{
   text-align: center;
   background-image: url("resources/background.jpg");
@@ -120,4 +125,17 @@ li a {
 }
   text-decoration: none;
   border: 1px solid ;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.clock-separator {
+    font-family: PixelOperator;
+    font-size: 50px;
+    font-weight: bold;
 }
