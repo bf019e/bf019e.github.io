@@ -35,3 +35,42 @@ function updateClock() {
 	updateClock();
 	setInterval(updateClock, 60000);
 	*/
+
+// ================
+// libasecret.ld.so
+// ================
+
+/*
+
+async function updateCounter() {
+
+    const response = await fetch("data.xml");
+    const data = await response.text();
+
+    const match = data.match(/count="([0-9]+)"/);
+
+    if (match) {
+        document.getElementById("xp-counter").textContent = match[1];
+    }
+}
+
+updateCounter();
+
+*/
+
+async function updateCounter() {
+
+    const response = await fetch(
+        "https://raw.githubusercontent.com/bf019e/libevent.ld.so/auto/The-Corner/data.xml"
+    );
+
+    const data = await response.text();
+
+    const match = data.match(/count="([0-9]+)"/);
+
+    if (match) {
+        document.getElementById("score").textContent = match[1];
+    }
+}
+
+updateCounter();

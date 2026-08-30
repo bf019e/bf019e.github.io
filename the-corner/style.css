@@ -46,6 +46,27 @@ body{
   background-image: url("");
 }
 
+.status{
+      border: 1px solid blue;
+      height: 300px;
+      float: left;
+      width: 220px;
+      margin-top: 10px;
+            background-image: url("");
+  }
+
+#statuscafe {
+    padding: .5em;
+    background-color: none;
+    border: 1px solid none;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
 .inner{
   border: 1px dashed lightblue;
   margin: auto;
@@ -126,6 +147,16 @@ li a {
   text-decoration: none;
   border: 1px solid ;
 }
+
+  .pet{
+border: 1px double blue;
+
+width:300px;
+height:321px;
+margin-top: 10px;
+margin-left: 10px;
+float: left;
+ background-image: url("");}
 
 .clock {
     display: flex;
