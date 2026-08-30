@@ -40,24 +40,6 @@ function updateClock() {
 // libasecret.ld.so
 // ================
 
-/*
-
-async function updateCounter() {
-
-    const response = await fetch("data.xml");
-    const data = await response.text();
-
-    const match = data.match(/count="([0-9]+)"/);
-
-    if (match) {
-        document.getElementById("xp-counter").textContent = match[1];
-    }
-}
-
-updateCounter();
-
-*/
-
 async function updateCounter() {
 
     const response = await fetch(
@@ -69,7 +51,10 @@ async function updateCounter() {
     const match = data.match(/count="([0-9]+)"/);
 
     if (match) {
-        document.getElementById("score").textContent = match[1];
+        const number = Number(match[1]);
+        const formatted = number.toLocaleString("en-US");
+
+        document.getElementById("score").textContent = formatted;
     }
 }
 
